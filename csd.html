@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="csd.html">CSD</a></li>
+                    <li><a href="">AIDS</a></li>
+                    <li><a href="">CSD</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <div class="text-box">
+            <h1>Computer Science and Design</h1>
+            <p>"The future is shaped by those who blend design and technology seamlessly."</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+</section>
+<section class="Explore">
+    <h1>KNOWLEDGE SHARED =KNOWLEDGE SQUARED=IMORTALITY</h1>
+    <p>Carl Sandburg: “Everybody is smarter than anybody.”</p>
+    <div class="row">
+        <div class="course-col">
+            <a href="designthinking.html">DESIGN THINKING</a>
+            <p>Design thinking is an extension of innovation that allows you to design solutions for end users with a single problem statement in mind. It not only imparts valuable skills but can help advance your career. It's also a collaborative endeavor that can only be mastered through practice with peers.</p>
+        </div>
+        <div class="course-col">
+            <a href="machinelearning.html">MACHINE LEARNING</a>
+            <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.</p>
+        </div>
+        <div class="course-col">
+            <a href="blender.html">BLENDER</a>
+            <p>Blender, sometimes stylised as blender, is a free and open-source 3D computer graphics software tool set used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video games.</p>
+        </div>
+        <div class="course-col">
+            <a href="computer animation.html">COMPUTER GRAPHICS AND ANIMATION</a>
+            <p>Computer animation is the art of creating moving images via the use of computers. It is a subfield of computer graphics and animation. Increasingly it is created by means of 3D computer graphics, though 2D computer graphics are still widely used for stylistic, low bandwidth, and faster real-time rendering needs.</p>
+        </div>
+    
+    </div>
+    <section class="course">
+        <div class="row1">
+            <div class="course-col1">
+                <a href="arvr.html">AUGMENTED AND VIRTUAL REALITY</a>
+                <p>VR creates an immersive virtual environment, while AR augments a real-world scene. VR is 75 percent virtual, while AR is only 25 percent virtual. VR requires a headset device, while AR does not. VR users move in a completely fictional world, while AR users are in contact with the real world.</p>
+            </div>
+            <div class="course-col1">
+                <a href="uiux.html">UI/UX</a>
+                <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface.</p>
+            </div>
+            <div class="course-col1">
+                <a href="#">MULTIMEDIA TECHNOLOGIES</a>
+                <p>Multimedia technology applies interactive computer elements, such as graphics, text, video, sound, and animation, to deliver a message.</p>
+            </div>
+        </div>
+    </section>
+</section>
+<script>
+    var navlinks =  document.getElementById("navlinks");
+    function showMenu()
+    {
+     navlinks.style.right="0";
+    }
+    function hideMenu()
+    {
+     navlinks.style.right="-200px"; 
+    }
+</script>
+</body>
+</html>

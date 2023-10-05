@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="csd.html">CSD</a></li>
+                    <li><a href="">AIDS</a></li>
+                    <li><a href="">CSD</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <div class="text-box">
+            <h1>ARTIFICAIL INTELLIGENCE AND DATA SCIENCE
+            </h1>
+            <p>"The future is shaped by those who blend design and technology seamlessly."</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+</section>
+<section class="Explore">
+    <h1>KNOWLEDGE SHARED =KNOWLEDGE SQUARED=IMORTALITY</h1>
+    <p>Carl Sandburg: “Everybody is smarter than anybody.”</p>
+    <div class="row">
+        <div class="course-col">
+            <a href="#">DATA SCIENCE</a>
+            <p>Data science is the study of data to extract meaningful insights for business. It is a multidisciplinary approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering to analyze large amounts of data. 
+            </p>
+        </div>
+        <div class="course-col">
+            <a href="#">MACHINE LEARNING</a>
+            <p>Machine learning (ML) is a subdomain of artificial intelligence (AI) that focuses on developing systems that learn—or improve performance—based on the data they ingest.Machine learning enables a machine to automatically learn from data,improve performance from experiences, and predict things without being explicitly programmed </p>
+        </div>
+        <div class="course-col">
+            <a href="#">ROBOTIC PROCESS AUTOMATION</a>
+            <p>Robotic process automation (RPA), also known as software robotics, uses automation technologies to mimic back-office tasks of human workers, such as extracting data, filling in forms, moving files. 
+            </p>
+        </div>
+        <div class="course-col">
+            <a href="#">NATURAL LANGUAGE PROCESSING</a>
+            <p>Natural language processing (NLP) refers to the the branch of artificial intelligence or AI—concerned with giving computers the ability to understand text and spoken words in much the same way human beings can.
+            </p>
+        </div>
+    </div>
+</section>
+<script>
+    var navlinks =  document.getElementById("navlinks");
+    function showMenu()
+    {
+     navlinks.style.right="0";
+    }
+    function hideMenu()
+    {
+     navlinks.style.right="-200px"; 
+    }
+</script>
+</body>
+</html>
